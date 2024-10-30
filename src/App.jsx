@@ -32,7 +32,7 @@ function App() {
         {/* contenido */}
         
         <button onClick={() => setCurrentApp('app2')} className="cambio_pagina">cambiar diseño</button>
-        <div className="card">  
+        <div className="card" style={{ backgroundImage: `url('rectangle.svg')`}}>  
           <div className="card_body">
             <q className="phrase">{frase.phrase}</q>
             <cite className="author"> <b>- {frase.author}</b></cite>
