@@ -36,7 +36,7 @@ function App() {
           <div className="card_body">
             <q className="phrase">{frase.phrase}</q>
             <cite className="author"> <b>- {frase.author}</b></cite>
-            <img src="../public/doble-comillas.png" alt="" className="comillas"/>
+            <img src="doble-comillas.png" alt="comillas" className="comillas"/>
           </div>
         </div>
         {/* boton */}

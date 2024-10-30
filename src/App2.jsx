@@ -25,7 +25,7 @@ function App2({ onBack}) {
         {/* contenido */}
         
         <button onClick={onBack} className='cambio_pagina'>cambiar diseño</button>
-        <div className="card" style={{ backgroundImage: `url('../public/rectangle2.svg')`}}>  
+        <div className="card" style={{ backgroundImage: `url('rectangle2.svg')`}}>  
           <div className="card_body">
             <q className="phrase">{frase.phrase}</q>
           </div>
